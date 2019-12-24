@@ -12,12 +12,12 @@
     "@babel/preset-env": "^7.7.7"
   },
   "scripts": {
-    "exercicio1": "babel ./Modulo1/exercicio1/main.js -o ./Modulo1/exercicio1/bundle.js -w",
-    "exercicio2": "babel ./Modulo1/exercicio2/main.js -o ./Modulo1/exercicio2/bundle.js -w",
-    "exercicio3": "babel ./Modulo1/exercicio3/main.js -o ./Modulo1/exercicio3/bundle.js -w",
-    "exercicio4": "babel ./Modulo1/exercicio4/main.js -o ./Modulo1/exercicio4/bundle.js -w",
-    "exercicio5": "babel ./Modulo1/exercicio5/main.js -o ./Modulo1/exercicio5/bundle.js -w",
-    "exercicio6": "babel ./Modulo1/exercicio6/main.js -o ./Modulo1/exercicio6/bundle.js -w",
-    "exercicio7": "babel ./Modulo1/exercicio7/main.js -o ./Modulo1/exercicio7/bundle.js -w"
+    "modulo1-exercicio1": "babel ./Modulo1/exercicio1/main.js -o ./Modulo1/exercicio1/bundle.js -w",
+    "modulo1-exercicio2": "babel ./Modulo1/exercicio2/main.js -o ./Modulo1/exercicio2/bundle.js -w",
+    "modulo1-exercicio3": "babel ./Modulo1/exercicio3/main.js -o ./Modulo1/exercicio3/bundle.js -w",
+    "modulo1-exercicio4": "babel ./Modulo1/exercicio4/main.js -o ./Modulo1/exercicio4/bundle.js -w",
+    "modulo1-exercicio5": "babel ./Modulo1/exercicio5/main.js -o ./Modulo1/exercicio5/bundle.js -w",
+    "modulo1-exercicio6": "babel ./Modulo1/exercicio6/main.js -o ./Modulo1/exercicio6/bundle.js -w",
+    "modulo1-exercicio7": "babel ./Modulo1/exercicio7/main.js -o ./Modulo1/exercicio7/bundle.js -w"
   }
 }
