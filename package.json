@@ -4,12 +4,15 @@
   "main": "index.js",
   "author": "vsilvasoares1710 <vsilvasoares1710@gmail.com>",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "@babel/cli": "^7.7.7",
     "@babel/core": "^7.7.7",
     "@babel/plugin-proposal-class-properties": "^7.7.4",
     "@babel/plugin-proposal-object-rest-spread": "^7.7.7",
-    "@babel/preset-env": "^7.7.7"
+    "@babel/preset-env": "^7.7.7",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10"
   },
   "scripts": {
     "modulo1-exercicio1": "babel ./Modulo1/exercicio1/main.js -o ./Modulo1/exercicio1/bundle.js -w",
@@ -18,6 +21,7 @@
     "modulo1-exercicio4": "babel ./Modulo1/exercicio4/main.js -o ./Modulo1/exercicio4/bundle.js -w",
     "modulo1-exercicio5": "babel ./Modulo1/exercicio5/main.js -o ./Modulo1/exercicio5/bundle.js -w",
     "modulo1-exercicio6": "babel ./Modulo1/exercicio6/main.js -o ./Modulo1/exercicio6/bundle.js -w",
-    "modulo1-exercicio7": "babel ./Modulo1/exercicio7/main.js -o ./Modulo1/exercicio7/bundle.js -w"
+    "modulo1-exercicio7": "babel ./Modulo1/exercicio7/main.js -o ./Modulo1/exercicio7/bundle.js -w",
+    "modulo2" : "webpack --mode=development -w"
   }
 }
